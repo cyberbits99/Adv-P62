@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 62</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <center>
+        <ul class="menu">
+            <li class="links"> <a href="#home">Home</a></li>
+            <li class="links"> <a href="#gridView">Grid View</a></li>
+            <li class="links"> <a href="#slideView">Slide View</a></li>
+        </ul>
+    </center>
+
+    <div class="container">
+        
+        <section id="home">
+            <p id="intro">Click Grid View or Slide View to view flowers!</p>
+        </section>
+
+        <section id="gridView">
+            <h3>Grid View</h3>
+            <hr>
+            <div class="row1">
+                <img class="imgs" src="Rose.png">
+                <img class="imgs" src="Tulip.png">
+                <img class="imgs" src="Sunflower.png">
+            </div>
+            <div class="row2">
+                <img class="imgs" src="Daffs.png">
+                <img class="imgs" src="Viburnums.png">
+                <img class="imgs" src="Dalia.png">
+            </div>
+        </section>
+
+        <section id="slideView">
+            <h3>Slide View</h3>
+            <hr>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img class="img-responsive" src="Rose.png">
+                            <div class="carousel-content">
+                                <p>Roses</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="Tulip.png">
+                            <div class="carousel-content">
+                                <p>Tulips</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="Sunflower.png">
+                            <div class="carousel-content">
+                                <p>Sunflowers</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="Daffs.png">
+                            <div class="carousel-content">
+                                <p>Daffodils</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="Viburnums.png">
+                            <div class="carousel-content">
+                                <p>Viburnums</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="Dalia.png">
+                            <div class="carousel-content">
+                                <p>Dalias</p>
+                            </div>
+                        </center>
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
